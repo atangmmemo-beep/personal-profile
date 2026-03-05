@@ -19,9 +19,10 @@ CSS3
 Bootstrap 5
 
  Live Website
-https://github.com/atangmmemo-beep/personal-profile/edit/main
+https://github.com/atangmmemo-beep/personal-profile/edit/main/README.md
 
 Author
 Lefa Atang Mmemo  
 Email: atangmmemo@gmail.com
+
 
