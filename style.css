@@ -1,3 +1,6 @@
+html{
+    scroll-behaviour:smooth;
+    }
 body {
     font-family: Arial, sans-serif;
 }
@@ -18,3 +21,4 @@ ul li {
     border-left: 5px solid #007bff;
 
 }
+
