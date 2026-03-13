@@ -1,115 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Profile</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">My Profile</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#skills">Skills</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#education">Education</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">My Profile</a>
+<!-- ABOUT SECTION -->
+<section id="about" class="container mt-5">
+<h2>About Me</h2>
+<p>Hello! I am a student passionate about web development and technology.</p>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutModal">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+Learn More
+</button>
+</section>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<!-- SKILLS SECTION -->
+<section id="skills" class="container mt-5">
+<h2>My Skills</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Bootstrap</li>
+<li>Basic JavaScript</li>
+</ul>
+</section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="container mt-5">
-        <h2>About Me</h2>
-        <p>Hello! I am a student passionate about web development and technology.</p>
+<!-- EDUCATION SECTION -->
+<section id="education" class="container mt-5">
+<h2>Education</h2>
+<p>Currently studying Computer Systems Engineering / IT at Botswana Accountancy College.</p>
+<a href="cv.pdf" download class="btn btn-success">
 
-        <!-- Button to trigger modal -->
-        <button class="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutModal">
-            Learn More
-        </button>
-    </section>
+Download CV
+</a>
+</section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="container mt-5">
-        <h2>My Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bootstrap</li>
-            <li>Basic JavaScript</li>
-        </ul>
-    </section>
+<!-- CONTACT SECTION -->
+<section id="contact" class="container mt-5 mb-5">
+<h2>Contact Me</h2>
+<p>Email: atangmmemo@gmail.com</p>
+<a href="mailto:atangmmemo@gmail.com" class="btn btn-warning">
 
-    <!-- EDUCATION SECTION -->
-    <section id="education" class="container mt-5">
-        <h2>Education</h2>
-        <P>Completed my BGCSE</P>
-        <p>Completed JCSE</p>
-        <p>Completed PSLE at Pelotshwaana Primary School</p>
-        <p>Currently studying Computer Systems Engineering / IT at Botswana Accountancy College.</p>
+Send Message
+</a>
+</section>
 
-        <a href="cv.pdf" download class"="btn btn-success">
-            Download CV
-        <a/>
-    </section>
+<!-- MODAL -->
+<div class="modal fade" id="aboutModal" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">More About Me</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="container mt-5 mb-5">
-        <h2>Contact Me</h2>
-        <p>Email: atangmmemo@gmail.com</p>
-        <p> Contact : 71428049 </p>
+<div class="modal-body">
+<p>
 
-        <a href="mailito:atangmmemo@gmail.com" class="btn btn-warning">
-        <a/>
-   </section>
-        <button class="btn btn-warning">Send Message</button>
-    </section>
+I enjoy building websites and learning new technologies.
 
-    <!-- MODAL -->
-    <div class="modal fade" id="aboutModal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
+My goal is to become a professional web developer and help
 
-                <div class="modal-header">
-                    <h5 class="modal-title">More About Me</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
+showcase information to people through my skills and bridge
 
-                <div class="modal-body">
-                    <p>I enjoy building websites and learning new technologies. 
-                    My goal is to become a professional web developer and help showcase information to the people through my skills and bridge the gap between computer literate people and those illiterate.</p>
-                </div>
+the gap between computer literate people and those who are not.
+</p>
+</div>
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                </div>
+<div class="modal-footer">
+<button class="btn btn-secondary" data-bs-dismiss="modal">
 
-            </div>
-        </div>
-    </div>
+Close
+</button>
+</div>
+</div>
+</div>
+</div>
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
+ 
